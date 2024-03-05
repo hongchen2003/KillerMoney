@@ -109,8 +109,19 @@ public enum LanguageString {
     ENTITIES_ZOGLIN("Zoglin"),
     ENTITIES_ZOMBIE("Zombie"),
     ENTITIES_ZOMBIE_HORSE("Zombie horse"),
-    ENTITIES_ZOMBIE_VILLAGER("Zombie villager");
+    ENTITIES_ZOMBIE_VILLAGER("Zombie villager"),
 
+// 1.17 支持
+    ENTITIES_AXOLOTL("Axolotl"),
+    ENTITIES_GLOW_SQUID("Glow Squid"),
+    ENTITIES_GOAT("Goat"),
+// 1.19 支持
+    ENTITIES_ALLAY("Allay"),
+    ENTITIES_FROG("Frog"),
+    ENTITIES_TADPOLE("Tadpole"),
+    ENTITIES_WARDEN("Warden");
+// 1.20 支持
+    
     private String string;
 
     LanguageString(String string) {
